@@ -3,6 +3,8 @@ import Navbar from '../../Components/Navbar/Navbar'
 import { FaSearch } from "react-icons/fa";
 import ExploreProduct from './ExploreProduct';
 import AboutSection from './AboutSection';
+import Partners from './Partners';
+import ChooseUs from './ChooseUs';
 
 export default function HomePage() {
     return (
@@ -37,6 +39,12 @@ export default function HomePage() {
             </section>
             <section className='own_container about_section'>
                 <AboutSection />
+            </section>
+            <section className='own_container partner_section'>
+                <Partners />
+            </section>
+            <section className='own_container choose_section'>
+                <ChooseUs />
             </section>
         </Fragment>
     )

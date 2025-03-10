@@ -253,6 +253,122 @@
   text-align: center;
 }
 
+.partner_section {
+  padding: 40px 0;
+}
+.partner_section h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 33px;
+  letter-spacing: 0%;
+  color: black;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.partner_section h3 span {
+  color: rgb(9, 0, 135);
+}
+.partner_section_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+.partner_section_boxes div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+}
+.partner_section_boxes img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .partner_section_boxes {
+    gap: 10px;
+  }
+  .partner_section_boxes div {
+    max-width: 120px;
+  }
+  .partner_section_boxes img {
+    max-width: 120px;
+  }
+}
+@media (max-width: 480px) {
+  .partner_section_boxes {
+    gap: 5px;
+  }
+  .partner_section_boxes div {
+    max-width: 90px;
+  }
+  .partner_section_boxes img {
+    max-width: 90px;
+  }
+}
+
+.choose_section {
+  padding: 100px 0;
+}
+.choose_section h3 {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 94px;
+  letter-spacing: 0%;
+}
+.choose_section .choose_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.choose_section .background {
+  position: absolute;
+  width: 575px;
+  height: 330px;
+  border-radius: 10px;
+  transform: rotate(2deg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.choose_section .card {
+  position: relative;
+  top: 4px;
+  left: 8px;
+  width: 550px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  transform: rotate(1deg) skew(1deg, 0deg);
+}
+.choose_section .card-content {
+  transform: none;
+}
+.choose_section h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.choose_section p {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.choose_section .choose_left .background {
+  background: rgb(0, 113, 21);
+}
+.choose_section .choose_left h2 {
+  color: rgb(0, 113, 21);
+}
+.choose_section .choose_right .background {
+  background: rgb(28, 0, 113);
+  height: 318px;
+}
+.choose_section .choose_right h2 {
+  color: rgb(28, 0, 113);
+}
+
 .nav_main {
   padding: 15px 0;
 }

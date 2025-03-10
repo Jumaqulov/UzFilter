@@ -252,6 +252,7 @@
 
 .about_section {
     padding: 40px 0;
+
     h3 {
         font-weight: 400;
         font-size: 48px;
@@ -288,4 +289,142 @@
         text-align: center;
     }
 
+}
+
+.partner_section {
+    padding: 40px 0;
+
+    h3 {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 33px;
+        letter-spacing: 0%;
+        color: black;
+        text-align: center;
+        margin-bottom: 70px;
+
+        span {
+            color: rgba(9, 0, 135, 1);
+        }
+    }
+
+    &_boxes {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 150px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            gap: 10px;
+
+            div {
+                max-width: 120px;
+            }
+
+            img {
+                max-width: 120px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            gap: 5px;
+
+            div {
+                max-width: 90px;
+            }
+
+            img {
+                max-width: 90px;
+            }
+        }
+    }
+}
+
+.choose_section {
+    padding: 100px 0;
+
+    h3 {
+        margin-bottom: 40px;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 94px;
+        letter-spacing: 0%;
+    }
+
+    .choose_box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .background {
+        position: absolute;
+        width: 575px;
+        height: 330px;
+        border-radius: 10px;
+        transform: rotate(2deg);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .card {
+        position: relative;
+        top: 4px;
+        left: 8px;
+        width: 550px;
+        background: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+        transform: rotate(1deg) skew(1deg, 0deg);
+    }
+
+    .card-content {
+        transform: none;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+    p {
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 16px;
+    }
+
+    .choose_left {
+        .background {
+            background: rgba(0, 113, 21, 1);
+        }
+
+        h2 {
+            color: rgba(0, 113, 21, 1);
+        }
+    }
+
+    .choose_right {
+        .background {
+            background: rgba(28, 0, 113, 1);
+            height: 318px;
+        }
+
+        h2 {
+            color: rgba(28, 0, 113, 1);
+        }
+    }
 }
