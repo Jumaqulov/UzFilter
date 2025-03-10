@@ -427,4 +427,19 @@
             color: rgba(28, 0, 113, 1);
         }
     }
+
+    @media(max-width:1140px) {
+        .choose_box {
+            justify-content: center;
+        }
+
+        .choose_left,
+        .choose_right {
+            width: 100%;
+        }
+
+        .choose_left {
+            margin-bottom: 40px;
+        }
+    }
 }

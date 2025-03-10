@@ -425,6 +425,18 @@
   color: rgb(28, 0, 113);
 }
 
+@media (max-width: 1140px) {
+  .choose_section .choose_box {
+    justify-content: center;
+  }
+  .choose_section .choose_left,
+  .choose_section .choose_right {
+    width: 100%;
+  }
+  .choose_section .choose_left {
+    margin-bottom: 40px;
+  }
+}
 .nav_main {
   padding: 15px 0;
 }
